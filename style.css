@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    color: black;
+  
+}
+.Main-body{
+    display: flex;
+   
+}
+.header-one{
+    display: flex;
+    width: 100%;
+    height: 30px;
+   font-size: 11px;
+    background: black;
+    padding-left: 690px;
+    padding-top: 8px;
+    position: fixed;
+   
+ 
+}
+.gap{
+    padding-left: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(248, 246, 246);
+}
+.icon-top{
+    font-size: 12px;
+}
+.header-two a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+  
+
+   
+}
+.header-two{
+   padding-left:1000px ;
+   padding-top: 6px;
+   margin-left: 200px;
+}
+.gap:hover{
+    text-decoration: underline;
+}
+.main-logo{
+    width: 120px;
+    height: 80px;
+    margin-left: 20px;
+    
+}
+.icontop{
+    color: #e9ecef;
+}
+.header-main a{
+    
+    text-decoration: none;
+    padding-left: 30px;
+    
+   
+}
+.header-main{
+    display: flex;
+}
+.main-content{
+    display: flex;
+    margin-left:280px;
+    margin-top: 50px;
+}
+.bold{
+    font-weight: bolder;
+}
+.search-box{
+    margin-left: 100px;
+    margin-top: 40px;
+    height: 30px;
+    width: 180px;
+    background: #e9ecef;
+    border: none;
+    cursor: pointer;
+}
+.top-icon{
+    margin-top: 45px;
+    padding-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.bnr-main{
+    position: relative;
+}
+.img-class{
+    width: 100%;
+    height: 100vh;
+}
+.text-class{
+    position: absolute;
+    top: 45px;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: xxX-large;
+    padding-left: 329px;
+
+}
+.img-btn{
+    width: 210px;
+    height: 71px;
+    margin-top: 480px;
+    margin-left: 330px;
+    background: black;
+    color: white;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+    font-size: x-large;
+    border-radius: 14px;
+}
+.img-btn:hover{
+    width: 250px;
+    height: 78px;
+    
+}
+.section-heading{
+    
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 40px;
+   
+}
+.button{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background: white;
+    cursor: pointer;
+    border-color: rgb(130, 192, 79);
+    font-family:"AdihausDIN",Helvetica,Arial,sans-serif ;
+    border-radius: 16px;
+  
+} 
+.button:hover{
+    border-color: rgb(1, 1, 20);
+    border-width: 2px;
+    transform: scale(1.2);
+   
+}
+
+
+.button1{
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+    background: white;
+    cursor: pointer;
+    border-color: rgb(130, 192, 79);
+    border-radius: 16px;
+}
+.button1:hover{
+    border-color: rgb(1, 1, 20);
+    border-width: 2px;
+    transform: scale(1.2);
+
+}
+
+.btn{
+    margin-left: 510px;
+    margin-top: 40px;
+   
+}
+
+.img1{
+    background-image: url("images/img1.jpg");
+    width: 450px;
+    height:350px ;
+    object-fit: cover;
+    text-align: center;
+   
+}
+.img1 :hover{
+    transform: scale(1.5);
+}
+.img-des1{
+
+text-align: center;
+margin-top: 175px;
+color: white;
+font-size: larger;
+letter-spacing: 1px;
+}
+.img2{
+    background-image: url("images/img2.jpg");
+    width: 450px;
+    height:350px ;
+    object-fit: cover;
+    margin-left:  7px;
+}
+.img2 :hover{
+    transform: scale(1.5);
+}
+.img-des2{
+
+    text-align: center;
+    margin-top: 175px;
+    color: white;
+    font-size: larger;
+    letter-spacing: 1px;
+}    
+
+.img3{
+    background-image: url("images/img3.jpg");
+    width: 450px;
+    height:350px ;
+   margin-left:  7px;
+}
+.img3 :hover{
+    transform: scale(1.5);
+}
+.img-des3{
+
+    text-align: center;
+    margin-top: 175px;
+    color: white;
+    font-size: larger;
+    letter-spacing: 1px;
+}    
+.img-main{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.h3{
+margin-left: 150px;
+margin-top: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section-h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100PX;
+    margin-left: 150px;
+}
+.wht-img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
+}
+.wht-hot{
+    margin-left: 140px;
+    display: flex;
+    
+}
+.shop-now{
+  display: flex;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.shop-now a{
+    color: black;
+}
+.shop-now a:hover{
+   text-shadow: o;
+   
+}
+.section-h3{
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.section3{
+    padding-left: 150px;
+    padding-top: 40px;
+    display: flex;
+    
+
+}
+.des a{
+    text-decoration: none;
+    padding-left: 190px;
+    
+   
+ 
+}
+.des a:hover{
+    text-decoration: underline;
+    color: rgb(195, 169, 118);
+}
+.des-style {
+    padding-top: 10px;
+
+}
+.section4{
+    display: flex;
+    
+
+
+}
+.section-head{
+   margin-left: 220px;
+   margin-top: 50px;
+   font-size: 20px;
+   font-family: "AdihausDIN",Helvetica,Arial,sans-serif ;
+   
+}
+.cont{
+    margin-left: 225px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif ;
+}
+.cont:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.colour{
+  background: yellowgreen;
+    width: 100%;
+    height: 90px;
+    margin-top: 70px;
+}
+.clr{
+    font-size: 30px;
+    font-family: "AdihausDIN",Helvetica,Arial,sans-serif ;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer{
+    background: #616363;
+    width: 100%;
+    height: 150px;
+   margin-top: 6px;
+}
+.ftr{
+    text-align: center;
+    padding-top: 50px;
+}
+.bnr-logo{
+    width: 10px;
+    height: 10px;
+}
+.bnr-logo{
+    padding-left: 188px;
+    padding-top: 58px;
+    
+}
+.bnr-last{
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 56px;
+}
+.bnr-des{
+    padding-left: 523px;
+    padding-top: 72px;
+    font-size: 22px;
+    font-family: 'Allerta Stencil';
+}
+.bnr-des1{
+    width: 671px;
+    padding-top: 110px;
+    font-size: 19px;
+    padding-left: 130px;
+    text-align: center;
+
+}
